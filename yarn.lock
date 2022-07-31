@@ -2167,6 +2167,25 @@
     react-router-dom "6.0.0-beta.0"
     react-use "^17.2.4"
 
+"@backstage/plugin-shortcuts@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-shortcuts/-/plugin-shortcuts-0.2.8.tgz#853642cdc43e10921efacfd89b52457470337943"
+  integrity sha512-5gQVYhf7VTLJ+fmbJcyddzqjKuiwQIDMBtFeY8dq7Oln5iOpSlpyG9y2HVW0CYUs1PlsPy4/PMXp2Uas2CccqQ==
+  dependencies:
+    "@backstage/core-components" "^0.10.0"
+    "@backstage/core-plugin-api" "^1.0.4"
+    "@backstage/theme" "^0.2.16"
+    "@backstage/types" "^1.0.0"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    "@types/zen-observable" "^0.8.2"
+    react-hook-form "^7.12.2"
+    react-router "6.0.0-beta.0"
+    react-use "^17.2.4"
+    uuid "^8.3.2"
+    zen-observable "^0.8.15"
+
 "@backstage/plugin-tech-radar@^0.5.14":
   version "0.5.14"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-tech-radar/-/plugin-tech-radar-0.5.14.tgz#488a0457485a5062ef333fd73f851240c9b7ddac"
@@ -5203,7 +5222,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
+"@types/react-dom@*", "@types/react-dom@<18.0.0":
   version "17.0.17"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.17.tgz#2e3743277a793a96a99f1bf87614598289da68a1"
   integrity sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==
@@ -5386,6 +5405,11 @@
   integrity sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==
   dependencies:
     "@types/node" "*"
+
+"@types/zen-observable@^0.8.2":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.3.tgz#781d360c282436494b32fe7d9f7f8e64b3118aa3"
+  integrity sha512-fbF6oTd4sGGy0xjHPKAt+eS2CrxJ3+6gQ3FGcBoIJR2TLAyCkCyI8JqZNy+FeON0AhVgNJoUumVoZQjBFUqHkw==
 
 "@typescript-eslint/eslint-plugin@^5.9.0":
   version "5.31.0"
